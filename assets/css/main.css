@@ -2327,6 +2327,7 @@
 
 		.box.special {
 			text-align: center;
+			width: 100%;
 		}
 
 		.box .image.featured {
@@ -2964,7 +2965,7 @@
 			height: inherit;
 			line-height: inherit;
 			position: absolute;
-			right: 0.75em;
+			right: 1em;
 			top: 0;
 			vertical-align: middle;
 		}
