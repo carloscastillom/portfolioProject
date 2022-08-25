@@ -2104,7 +2104,7 @@
 
 	.container {
 		margin: 0 auto;
-		max-width: calc(100% - 5em);
+		max-width: calc(100% - 3em);
 		width: 60em;
 	}
 
@@ -2420,7 +2420,7 @@
 			.box.features .features-row section {
 				float: left;
 				padding: 3em;
-				width: 50%;
+				width: 25%;
 			}
 
 				.box.features .features-row section :last-child {
