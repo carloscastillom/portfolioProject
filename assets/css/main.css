@@ -2420,7 +2420,7 @@
 			.box.features .features-row section {
 				float: left;
 				padding: 3em;
-				width: 25%;
+				width: 50%;
 			}
 
 				.box.features .features-row section :last-child {
@@ -2546,10 +2546,10 @@
 			color: #ffffff;
 			cursor: default;
 			display: inline-block;
-			height: 5.5em;
-			line-height: 5.5em;
-			margin: 0 0 2em 0;
-			width: 5.5em;
+			height: 5em;
+			line-height: 5em;
+			margin: 0 0 1em 0;
+			width: 5em;
 		}
 
 			.icon.major:before {
