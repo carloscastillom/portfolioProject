@@ -637,7 +637,7 @@
 		.blog-card {
 			display: -webkit-box;
 			display: -webkit-flex;
-			display: -ms-flexbox;
+			display: -ms-flexbox;ainer
 			display: flex;
 			text-align: left;
 			border: 1px solid #dee2e6;
@@ -2217,6 +2217,11 @@
 				max-width: 100%;
 			}
 
+		}
+
+		.mb-5,
+		.my-5 {
+		margin-bottom: 3rem !important;
 		}
 
 /* Section/Article */
