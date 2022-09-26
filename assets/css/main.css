@@ -668,6 +668,7 @@
 			display: flex;
 			text-align: left;
 			border: 1px solid #dee2e6;
+			border-radius: 15px;
 			margin-bottom: 30px;
 			overflow: hidden;
 			margin: 0 15px 30px;
@@ -2501,7 +2502,7 @@
 	.box {
 		background: #fff;
 		border-radius: 6px;
-		box-shadow: 0 0.5px 1px 1px #e5e5e5;
+		/*box-shadow: 0 0.5px 1px 1px #e5e5e5;*/
 		margin: 0 0 2em 0;
 		padding: 3em;
 	}
@@ -2519,7 +2520,7 @@
 		}
 
 		.box.features .features-row {
-			border-top: solid 2px #e5e5e5;
+			/*border-top: solid 2px #e5e5e5;*/
 			position: relative;
 		}
 
@@ -2532,9 +2533,9 @@
 			.box.features .features-row section {
 				float: left;
 				padding: 3em;
-				width: 50%;
+				width: 25%;
 			}
-
+			/*
 				.box.features .features-row section :last-child {
 					margin-bottom: 0;
 				}
@@ -2573,7 +2574,7 @@
 				.box.features .features-row:last-child section {
 					padding-bottom: 0;
 				}
-
+		*/
 		.box.special {
 			text-align: center;
 			width: 100%;
