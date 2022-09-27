@@ -6,8 +6,9 @@ https://carloscastillom.github.io/portfolioProject/
 
 ToDo
 
+
 - Update Resume with real Data Data Analysis Skills - Web developement Skills - Languages
 - Portfolio, Change "Learn More Button"
-- check how it looks 4 in Areas of interest OK 
-- add description down
--
+- Change the banner in one color
+- add description down the areas of interes. 
+
