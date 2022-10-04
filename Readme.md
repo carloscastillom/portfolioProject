@@ -7,7 +7,7 @@ https://carloscastillom.github.io/portfolioProject/
 ToDo
 - Update Resume with real Data Data Analysis Skills - Web developement Skills - Languages
 - view of latest projects include description in the image when hover.
-
+-Send to recruiter
 
 Good to have
 - add description down the areas of interest. 
