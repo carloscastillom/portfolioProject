@@ -5,7 +5,7 @@ this is my website where you can checkout the different project i have been work
 https://carloscastillom.github.io/portfolioProject/
 
 ToDo
-- Update Resume with real Data Data Analysis Skills - Web developement Skills - Languages
+- change format of my resume! bars and stufff
 - view of latest projects include description in the image when hover.
 -Send to recruiter
 
