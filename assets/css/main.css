@@ -2495,42 +2495,47 @@
 	}
 
 
-
-
 	/*With Simple Caption */
-.column#caption {
-	position: relative;
-}
-.column#caption .text {
-		position: absolute;		
-    top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		z-index: 10;
-    opacity: 0;
-    transition: all 0.8s ease;			
-}
-.column#caption .text h1 {		
-		margin: 0;		
-		color: white;
-}
-.column#caption:hover .text {
-	opacity: 1;
+	.column#caption {
+		position: relative;
+	}
+	.column#caption .text {
+			position: absolute;		
+		top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: 10;
+		opacity: 0;
+		transition: all 0.8s ease;			
+	}
+	.column#caption .text h1 {		
+			margin: 0;		
+			color: white;
+	}
+	.column#caption:hover .text {
+		opacity: 1;
+		
+	}
+	.column#caption img {
+		
+		border-radius: 0;
+		display: block;
+		max-width: 277px;
+		height: 300px;
+	}
 	
-}
-.column#caption img {
 	
-	border-radius: 0;
-	display: block;
-	width: 200px;
-	max-height: 100%;
-}
+	.column#caption:hover img {
+		-webkit-filter: sepia(90%);
+	
+	}
 
 
-.column#caption:hover img {
-	-webkit-filter: sepia(90%);
 
-}
+
+
+
+
 
 
 /* Box */
@@ -2622,6 +2627,7 @@
 			text-align: center;
 			width: 100%;
 			border: 1px solid #dee2e6;
+			padding: 0;
 		}
 
 
