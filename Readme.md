@@ -5,8 +5,9 @@ this is my website where you can checkout the different project i have been work
 https://carloscastillom.github.io/portfolioProject/
 
 ToDo
-- change format of my resume! bars and stufff
 - view of latest projects include description in the image when hover.
+- change format of my resume! bars and stufff
+
 -Send to recruiter
 
 Good to have
