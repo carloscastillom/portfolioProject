@@ -673,6 +673,7 @@
 			padding: 0; 
 			overflow: hidden;
 			margin: 0 15px 20px;
+			padding: 0 0 0 0 ;
 		}
 		
 		.blog-card .img-holder {
@@ -934,7 +935,7 @@
 				}
 
 					.row > * {
-						padding: 0 1em 0 1em;
+						padding: 0 0 0 0;
 					}
 
 					.row.gtr-uniform {
@@ -1179,7 +1180,7 @@
 				}
 
 					.row > * {
-						padding: 0 1em 0 1em;
+						padding: 0 0 0 0;
 					}
 
 					.row.gtr-uniform {
@@ -2495,16 +2496,39 @@
 	}
 
 
+
+
 	/*With Simple Caption */
+
+	.box.project {
+		text-align: center;
+		width: 100%;
+		border: 1px solid #dee2e6;
+		padding: 0;
+		position: relative;
+		height: 350px;
+	}
+
+
+	.box.project img{
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+
+
+
+
+
+
+
 	.column#caption {
 		position: relative;
 	}
 	.column#caption .text {
-			position: absolute;		
-		top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			z-index: 10;
+		position: absolute;		
 		opacity: 0;
 		transition: all 0.8s ease;			
 	}
@@ -2520,16 +2544,25 @@
 		
 		border-radius: 0;
 		display: block;
-		max-width: 277px;
-		height: 300px;
+		width: 100%;
+		height: 350px;
 	}
 	
 	
 	.column#caption:hover img {
-		-webkit-filter: sepia(90%);
+		-webkit-filter: opacity(80%);
+		
+
 	
 	}
 
+	.column#caption button {
+		position: absolute;		
+		text-align: center;
+		display: block;
+		opacity: 0;
+
+	}
 
 
 
@@ -2623,12 +2656,7 @@
 		}
 
 
-		.box.project {
-			text-align: center;
-			width: 100%;
-			border: 1px solid #dee2e6;
-			padding: 0;
-		}
+
 
 
 
@@ -3201,6 +3229,40 @@
 			cursor: default;
 			opacity: 0.25;
 		}
+
+		input[type="submit"].InPro,
+		input[type="reset"].InPro,
+		input[type="button"].InPro,
+		.button.InPro {
+			position: absolute;
+			
+			left:0;
+			top: 180px;
+			text-align: center;
+		}
+
+			input[type="submit"].InPro:hover,
+			input[type="reset"].InPro:hover,
+			input[type="button"].InPro:hover,
+			.button.InPro:hover {
+				background-color: #f8f8f8;
+			}
+
+			input[type="submit"].InPro:active,
+			input[type="reset"].InPro:active,
+			input[type="button"].InPro:active,
+			.button.InPro:active {
+				background-color: #f0f0f0;
+			}
+
+			input[type="submit"].InPro.icon:before,
+			input[type="reset"].InPro.icon:before,
+			input[type="button"].InPro.icon:before,
+			.button.alt.icon:before {
+				color: #999;
+			}
+
+		
 
 /* Header */
 
