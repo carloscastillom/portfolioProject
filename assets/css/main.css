@@ -2517,7 +2517,14 @@
 		height: 100%;
 	}
 
+	.box.project:hover {
+		display: block;
+		background: rgba(153, 149, 149, 0.5);
+	}
 
+	.box.project:hover img{
+		opacity: 60%;
+	}
 
 
 
@@ -3234,11 +3241,9 @@
 		input[type="reset"].InPro,
 		input[type="button"].InPro,
 		.button.InPro {
-			position: absolute;
+			position: relative;
+			top: 40%;
 			
-			left:0;
-			top: 180px;
-			text-align: center;
 		}
 
 			input[type="submit"].InPro:hover,
