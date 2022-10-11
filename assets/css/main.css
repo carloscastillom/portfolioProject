@@ -2517,6 +2517,7 @@
 		height: 100%;
 	}
 
+
 	.box.project:hover {
 		display: block;
 		background: rgba(153, 149, 149, 0.5);
@@ -2524,6 +2525,10 @@
 
 	.box.project:hover img{
 		opacity: 60%;
+	}
+
+	.box.project:hover .button.InPro{
+		opacity: 1;
 	}
 
 
@@ -3243,6 +3248,7 @@
 		.button.InPro {
 			position: relative;
 			top: 40%;
+			opacity: 0;
 			
 		}
 
