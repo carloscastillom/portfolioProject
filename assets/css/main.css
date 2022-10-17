@@ -646,6 +646,13 @@
 		  }
 
 
+		.card-body p {
+			font-size: 0.8em;
+			line-height: 1em;
+			letter-spacing: 0;
+		}
+
+
 		.card-header {
 		padding: 0.75rem 1.25rem;
 		margin-bottom: 0;
@@ -3249,6 +3256,7 @@
 			position: relative;
 			top: 40%;
 			opacity: 0;
+			background-color: #f8f8f8e7;
 			
 		}
 
@@ -3270,7 +3278,7 @@
 			input[type="reset"].InPro.icon:before,
 			input[type="button"].InPro.icon:before,
 			.button.alt.icon:before {
-				color: #999;
+				color: rgb(250, 246, 246);
 			}
 
 		
