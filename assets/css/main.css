@@ -459,11 +459,11 @@
 		}
 
 		.row > .col-4 {
-			width: 33.33333%;
+			width: 29%;
 		}
 
 		.row > .off-4 {
-			margin-left: 33.33333%;
+			margin-left: 29%;
 		}
 
 		.row > .col-5 {
@@ -587,7 +587,8 @@
 		}
 
 		.row > * {
-			padding: 0 1em 0 1em;
+			padding: 0 0 0 0;
+			margin: 0 0.5em 1.5em 0.5em;
 		}
 
 			.row.gtr-uniform {
@@ -642,7 +643,8 @@
 			-webkit-flex: 1 1 auto;
 				-ms-flex: 1 1 auto;
 					flex: 1 1 auto;
-			padding: 1.25rem;
+			padding: 0.7rem;
+			padding-bottom: 1.3rem;
 		  }
 
 
@@ -650,6 +652,13 @@
 			font-size: 0.9em;
 			line-height: 1em;
 			letter-spacing: 0;
+			
+		}
+
+		.card-body h5 {
+			
+			padding-top: 0.5em;
+			
 		}
 
 
@@ -949,7 +958,8 @@
 				}
 
 					.row > * {
-						padding: 0 1em 0 1em;
+						padding: 0 0 0 0;
+						margin: 0 0.5em 1.5em 0.5em;
 					}
 
 					.row.gtr-uniform {
@@ -1194,7 +1204,8 @@
 				}
 
 					.row > * {
-						padding: 0 1em 0 1em;
+						padding: 0 0 0 0;
+						margin: 0 0.5em 1.5em 0.5em;
 					}
 
 					.row.gtr-uniform {
@@ -1438,10 +1449,10 @@
 					margin-left: -2em;
 				}
 
-					.row > * {
-						padding: 0 1em 0 1em;
+				.row > * {
+					padding: 0 0 0 0;
+					margin: 0 0.5em 1.5em 0.5em;
 					}
-
 					.row.gtr-uniform {
 						margin-top: -2em;
 					}
@@ -1683,8 +1694,9 @@
 					margin-left: -2em;
 				}
 
-					.row > * {
-						padding: 0 1em 0 1em;
+				.row > * {
+					padding: 0 0 0 0;
+					margin: 0 0.5em 1.5em 0.5em;
 					}
 
 					.row.gtr-uniform {
@@ -1929,7 +1941,8 @@
 				}
 
 					.row > * {
-						padding: 0 1em 0 1em;
+						padding: 0 0 0 0;
+						margin: 0 0.5em 1.5em 0.5em;
 					}
 
 					.row.gtr-uniform {
@@ -2173,7 +2186,8 @@
 					margin-left: -2em;
 				}
 					.row > * {
-						padding:  0 1em 0 1em;
+						padding: 0 0 0 0;
+						margin: 0 0.5em 1.5em 0.5em;
 					}
 
 					.row.gtr-uniform {
@@ -2225,7 +2239,7 @@
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 3em);
-		width: 60em;
+		width: 70em;
 	}
 
 		.container.xsmall {
@@ -2611,7 +2625,7 @@
 		border-radius: 6px;
 		/*box-shadow: 0 0.5px 1px 1px #e5e5e5;*/
 		margin: 0 0 2em 0;
-		padding: 3em;
+		padding: 2em;
 	}
 
 		.box > :last-child {
@@ -2688,6 +2702,22 @@
 			
 		}
 
+		.box.special .date{
+			text-align: justify;
+			width: 100%;
+			margin: 0 0 1em 0;
+			color: #27294d;
+			font-weight: bold;
+		}
+
+		.box.special .position{
+			text-align: justify;
+			width: 100%;
+			margin: 0 0 1em 0;
+			color: #27294d;
+			font-weight: bold;
+		}
+
 
 		.box.special .subtitle{
 			text-align: justify;
@@ -2746,9 +2776,10 @@
 		}
 
 		.box.about .img-holder-CarC img {
-			width: 300px;
-			max-height: 350px;
-			border-radius: 40%;
+			width: 270px;
+			max-height: 300px;
+			border-radius: 45%;
+			border: 1px solid #b9b9b9
 		}
 		
 		.box.about .content-holder {
@@ -4352,16 +4383,27 @@
 		}
 	  }
 	  
+	#resume .col-4 {
+    	border: 0.5px solid rgb(146, 145, 145);
+		border-radius: 0.3rem;
+	}
+
+
+
+
+
 	  .progress {
 		display: -webkit-box;
 		display: -webkit-flex;
 		display: -ms-flexbox;
 		display: flex;
-		height: 0.3rem;
+		height: 0.4rem;
 		overflow: hidden;
 		font-size: 0.75rem;
 		background-color: #eaf0fc;
 		border-radius: 0.25rem;
+		
+		
 	  }
 	  
 	  .progress-bar {
@@ -4381,7 +4423,7 @@
 		color: #fff;
 		text-align: center;
 		white-space: nowrap;
-		background-color: #323883;
+		background-color: #27294d;
 		-webkit-transition: width 0.6s ease;
 		transition: width 0.6s ease;
 	  }
