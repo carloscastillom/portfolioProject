@@ -5,7 +5,7 @@ this is my website where you can checkout the different project i have been work
 https://carloscastillom.github.io/portfolioProject/
 
 ToDo
-- change format of my resume! bars and stuff. if almost there, make it ready for send to potentiall employers
+- Paddin in about page. try to add something different in home
 
 
 -Send to recruiter
