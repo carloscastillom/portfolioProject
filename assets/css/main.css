@@ -643,7 +643,7 @@
 			-webkit-flex: 1 1 auto;
 				-ms-flex: 1 1 auto;
 					flex: 1 1 auto;
-			padding: 0.7rem;
+			padding: 1.15rem;
 			padding-bottom: 1.3rem;
 		  }
 
@@ -663,11 +663,18 @@
 
 
 		.card-header {
-		padding: 0.75rem 1.25rem;
+		padding: 1.5rem 0 0 0;
 		margin-bottom: 0;
-		background-color: rgba(0, 0, 0, 0.03);
-		border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+		background-color: rgba(240, 240, 240, 0.03);
+		border-bottom: 1.2px solid rgba(8, 12, 37, 0.726);
+		font-weight: bolder;
+		font-size: 1.1em;
 		}
+
+		.card-header h4{
+
+			font-weight: bolder;
+			}
 		
 		.card-header:first-child {
 		border-radius: calc(0 - 1px) calc(0 - 1px) 0 0;
@@ -683,7 +690,8 @@
 		
 			display: flex;
 			text-align: left;
-			border: 1px solid #dee2e6;
+			border: 1px solid #a09f9f;
+			border-width: 2px;
 			border-radius: 15px;
 			margin-left:0%;
 			padding: 0; 
@@ -756,6 +764,15 @@
 		.content-holder p{
 			text-align: justify;
 			text-justify: inter-word;
+			font-size: 1.1em;
+		}
+
+
+		.content-holder h3{
+			text-align: justify;
+			text-justify: inter-word;
+			color: #27294d;
+			font-weight: 550;
 		}
 
 
@@ -2705,17 +2722,18 @@
 		.box.special .date{
 			text-align: justify;
 			width: 100%;
-			margin: 0 0 1em 0;
+			margin: 1em 0 1em 0;
 			color: #27294d;
 			font-weight: bold;
+			font-size: 1em;
 		}
 
 		.box.special .position{
 			text-align: justify;
 			width: 100%;
 			margin: 0 0 1em 0;
-			color: #27294d;
-			font-weight: bold;
+			color: #494949;
+			font-weight: 560;
 		}
 
 
@@ -2776,10 +2794,11 @@
 		}
 
 		.box.about .img-holder-CarC img {
-			width: 270px;
-			max-height: 300px;
-			border-radius: 45%;
-			border: 1px solid #b9b9b9
+			width: 250px;
+			max-height: 320px;
+			border-radius: 50%;
+			border: 1px solid #b9b9b9;
+			margin: 1.3em;
 		}
 		
 		.box.about .content-holder {
@@ -3695,7 +3714,7 @@
 /* Main */
 
 	#main {
-		padding: 4em 0;
+		padding: 2em 0;
 	}
 
 		#main > header {
@@ -4384,7 +4403,7 @@
 	  }
 	  
 	#resume .col-4 {
-    	border: 0.5px solid rgb(146, 145, 145);
+    	border: 0.1px solid rgba(196, 185, 185, 0.3);
 		border-radius: 0.3rem;
 	}
 
