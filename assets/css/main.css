@@ -665,7 +665,7 @@
 		.card-header {
 		padding: 1.5rem 0 0 0;
 		margin-bottom: 0;
-		background-color: rgba(240, 240, 240, 0.03);
+		background-color: #9295b610;
 		border-bottom: 1.2px solid rgba(8, 12, 37, 0.726);
 		font-weight: bolder;
 		font-size: 1.1em;
@@ -687,17 +687,26 @@
 
 		/* blog wrapper */
 		.blog-card {
-		
 			display: flex;
 			text-align: left;
-			border: 1px solid #aaa2a259;
-			border-width: 2px;
+			border: 1.5px solid #a09f9f7c;
 			border-radius: 15px;
 			margin-left:0%;
 			padding: 0; 
 			overflow: hidden;
 			margin: 0 15px 20px;
 			padding: 0 0 0 0 ;
+		}
+
+
+		.blog-card:hover{
+			border: 2px solid #a09f9f;
+			background-color: #9295b610;
+		}
+
+		.blog-card:hover .read-more{
+			font-size: 15px;
+			font-weight: 700;
 		}
 		
 		.blog-card .img-holder {
