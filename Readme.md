@@ -5,12 +5,15 @@ this is my website where you can checkout the different project i have been work
 https://carloscastillom.github.io/portfolioProject/
 
 ToDo
-- Paddin in about page. try to add something different in home
+- add decription of areas of interest
+- add about me more information about the courses. add 
+- change about and portfolio order
+- change color of buttons on the index page
 
 
 -Send to recruiter
 
 Good to have
-- add description down the areas of interest. 
 - fix the other views Tablet and phone
-
+- add button in about
+- put them in one page? 
