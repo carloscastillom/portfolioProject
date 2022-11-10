@@ -5,20 +5,13 @@ this is my website where you can checkout the different project i have been work
 https://carloscastillom.github.io/portfolioProject/
 
 ToDo
-- Add 
-- shadows in the projects blogs
-- add decription of areas of interest
 - change about and portfolio order
-- change color of buttons on the index page
 
-
-
--Send to recruiter
 
 Good to have
 - fix the other views Tablet and phone
-- add button in about
-- put them in one page? 
+- add connect buttons Github FB  in about
+- put them in one page?? JS 
 
 
 Links
