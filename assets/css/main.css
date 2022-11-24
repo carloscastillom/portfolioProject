@@ -1840,11 +1840,11 @@
 				}
 
 				.row > .col-4-mobile {
-					width: 33.33333%;
+					width: 100%;
 				}
 
 				.row > .off-4-mobile {
-					margin-left: 33.33333%;
+					margin-left: 50%;
 				}
 
 				.row > .col-5-mobile {
@@ -2085,12 +2085,21 @@
 					margin-left: 25%;
 				}
 
+				.row > .col-4 {
+					width: 85%;
+					margin-left: 10%;
+				}
+
+				.row > .off-4 {
+					margin-left: 50%;
+				}
+
 				.row > .col-4-mobilep {
-					width: 33.33333%;
+					width: 100%;
 				}
 
 				.row > .off-4-mobilep {
-					margin-left: 33.33333%;
+					margin-left: 50%;
 				}
 
 				.row > .col-5-mobilep {
@@ -3958,7 +3967,7 @@
 		/* Box */
 
 			.box {
-				padding: 3em 2em;
+				padding: 0.5em 0.5em;
 			}
 
 				.box.features > section {
